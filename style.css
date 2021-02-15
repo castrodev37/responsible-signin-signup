@@ -21,6 +21,18 @@ body, input{
     overflow: hidden; 
 }
 
+.container:before{
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #4481eb, #04befe);
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+}
+
 .container .form-container{
     position: absolute;
     top: 0;
